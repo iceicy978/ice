@@ -1,0 +1,29 @@
+/* 全局样式 */
+body {
+    font-family: "Microsoft YaHei", sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* 导航栏滚动效果 */
+#navbar {
+    transition: 0.4s;
+}
+
+/* 作品图片hover */
+.work-img {
+    height: 250px;
+    object-fit: cover;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.work-img:hover {
+    transform: scale(1.05);
+}
+
+/* 留言卡片 */
+.msg-item {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
